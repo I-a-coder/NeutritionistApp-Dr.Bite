@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "523662053907",
+    "project_id": "drbite-d6ae1",
+    "storage_bucket": "drbite-d6ae1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523662053907:android:49ff73a44d44bdf0a7e5e6",
+        "android_client_info": {
+          "package_name": "com.example.drbite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtQpdD4EWENHVETRvlumvkPVcT4l16H9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
