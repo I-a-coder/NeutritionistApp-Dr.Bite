@@ -1,6 +1,5 @@
 package com.example.drbite;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,13 +19,16 @@ public class ProgressActivity extends AppCompatActivity {
         obtainedValueTextView = findViewById(R.id.obtainedvalue);
         remainingValueTextView = findViewById(R.id.remainingvalue);
 
+
         double dailyPlan = getIntent().getDoubleExtra("dailyPlan", 0.0);
-        double totalCalories = dailyPlan;
+        int totalCalories = getIntent().getIntExtra("totalCalories", 0);
+
 
         double remainingCalories = dailyPlan - totalCalories;
 
+
         requiredValueTextView.setText(String.format("%.2f", dailyPlan) + " kcal");
-        obtainedValueTextView.setText(String.format("%.2f", totalCalories) + " kcal");
+        obtainedValueTextView.setText(String.format("%d kcal", totalCalories));
         remainingValueTextView.setText(String.format("%.2f", remainingCalories) + " kcal");
     }
 }

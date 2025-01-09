@@ -59,8 +59,8 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="189dp"
-        android:layout_height="150dp"
+        android:layout_width="125dp"
+        android:layout_height="117dp"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.452"
@@ -131,7 +131,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="3dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="60dp"
         android:text="Sign In"
         android:textColor="#E91E63"
         android:textSize="22sp"

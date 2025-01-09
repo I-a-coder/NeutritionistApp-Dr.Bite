@@ -36,7 +36,7 @@
 
         <!-- Data activity -->
         <activity
-            android:name=".DataActivity"
+            android:name=".dataActivity"
             android:exported="false" />
 
         <!-- Signup activity -->
